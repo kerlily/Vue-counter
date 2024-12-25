@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+main {
+    text-align: center;
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#value {
+    font-size: 6rem;
+}
+
+button {
+    background-color: #878787;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+button:active {
+    background-color: #444;
+    animation: pulse 0.4s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
