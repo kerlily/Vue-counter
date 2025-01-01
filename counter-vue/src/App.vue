@@ -1,20 +1,33 @@
-<script>
-export default {
-    data() {
-        return {
-            count: 0,
-        }
-    },
-    methods: {
-        increase() { 
-            this.count += 1;
-        },
-        decrease() {
-            this.count -= 1;
-        }
-    },
-};
+<script setup>
+// export default {
+//     data() {
+//         return {
+//             count: 0,
+//         }
+//     },
+//     methods: {
+//         increase() { 
+//             this.count += 1;
+//         },
+//         decrease() {
+//             this.count -= 1;
+//         }
+//     },
+// };
 
+import { ref } from 'vue';
+
+        const count = ref(0);
+
+        function increase() {
+            count.value += 1;
+        }
+
+        function decrease() {
+            count.value -= 1;
+        }
+
+        
 
 </script>
 
