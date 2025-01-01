@@ -1,4 +1,5 @@
 <script setup>
+// // option api
 // export default {
 //     data() {
 //         return {
@@ -15,6 +16,7 @@
 //     },
 // };
 
+// compotition api
 import { ref } from 'vue';
 
         const count = ref(0);
@@ -27,7 +29,7 @@ import { ref } from 'vue';
             count.value -= 1;
         }
 
-        
+  
 
 </script>
 
