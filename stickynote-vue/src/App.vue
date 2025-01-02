@@ -5,7 +5,24 @@
       <h1 class="header-title">Memo</h1>
       <button class="header-button">+</button>
     </header>
-    <div>[card]</div>
+    <div class="card-container">
+      <div class="card">
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil illo, error eveniet excepturi accusantium quo ipsum maxime? Animi esse, incidunt quo perferendis distinctio blanditiis laboriosam, quos velit iste officiis illo.</p>
+        <p class="card-date">182378912</p>
+      </div>
+       <div class="card">
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil illo, error eveniet excepturi accusantium quo ipsum maxime? Animi esse, incidunt quo perferendis distinctio blanditiis laboriosam, quos velit iste officiis illo.</p>
+        <p class="card-date">182378912</p>
+      </div>
+       <div class="card">
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil illo, error eveniet excepturi accusantium quo ipsum maxime? Animi esse, incidunt quo perferendis distinctio blanditiis laboriosam, quos velit iste officiis illo.</p>
+        <p class="card-date">182378912</p>
+      </div>
+       <div class="card">
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil illo, error eveniet excepturi accusantium quo ipsum maxime? Animi esse, incidunt quo perferendis distinctio blanditiis laboriosam, quos velit iste officiis illo.</p>
+        <p class="card-date">182378912</p>
+      </div>
+    </div>
   </div>
  </main>
 </template>
@@ -46,5 +63,22 @@
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
+  }
+
+  .card {
+    width: 225px;
+    height: 225px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #efff95;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
   }
 </style>
